@@ -3,6 +3,7 @@ import CountryCard from './CountryCard';
 
 const Home = () => {
     const [country, setCountry] = useState();
+    // api not working
     useEffect ( () => {
         fetch("https://restcountries.eu/rest/v2/all")
         .then(res=>res.json())
